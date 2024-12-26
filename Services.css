@@ -6,6 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
+
     background: blanchedalmond;
     
 }
@@ -75,97 +76,66 @@ main{
     transform: scaleX(1);
     
 }
-.container1{
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
 }
-.headText{
+.headservice{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+.container {
     width: 80%;
-    margin:40px auto;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: ivory;
-    border-radius: 12px;
-    padding: 10px;
-}
-.greetText{
-    text-align: center;
-    font-size: 1.2em;
-    
-}
-.nameText{
-    text-align: center;
-    font-size: 2em;
-    font-weight: 500;
-}
-.roleText{
-    text-align: center;
-    font-size: 2em;
-    font-weight: 500;
-}
-.image{
-    display: flex;
-    width: 15%;
-    margin: 30px auto;
-    border: 2px solid black;
-    /* border-bottom: 2px solid black; */
-}
-.image img{
-    position: relative;
-    top: -8px;
-    left: -8px;
-    width:100%;
-    /* padding: 10px; */
-    /* margin: auto; */
-    
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.aboutContainer{
+.services {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
-.aboutText{
-    width: 40%;
-    /* margin:auto; */
-    border-radius: 12px;
-    background-color: ivory;
-    padding: 10px;
-    text-align: center;
-}
-.container2{
-    width: 80%;
-    margin: auto;
-}
-.container2-1{
-    width: 100%;
-    margin: 20px auto;
-    text-align: center;
-    color: chocolate;
-}
-.container2-2{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-.projects{
-    width: 50%;
-    margin: 20px;
+
+.service {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f0f0f0;
     padding: 20px;
-    height: auto;
-    background: ivory;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.projects a{
-    text-decoration: none;
-    color: black;
+
+.service:hover {
+    background-color: #e8ffe8;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
-.projects a:visited{
-    text-decoration: none;
-    color: black;
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4CAF50;
 }
-.siteimg{
-    width: 100%;
+
+.service p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #4CAF50;
+    margin-bottom: 15px;
 }
 
 .myFooter{
@@ -175,5 +145,5 @@ main{
     background: black;
     color: white;
     text-align: right;
-    padding-right: 20px;
+    padding-right:20px ;
 }
