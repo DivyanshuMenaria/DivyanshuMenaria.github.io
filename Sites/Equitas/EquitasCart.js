@@ -41,9 +41,9 @@ function displayCartSummary(){
         let mainContainerElement = document.querySelector('.empty-cart-container');
         mainContainerElement.innerHTML = `
          <div class="empty-container">
-            <img src="/Images/cart.png" alt="image" class="empty-cart-image">
+            <img src="/Sites/Equitas/Images/cart.png" alt="image" class="empty-cart-image">
             <div class="empty-cart-text" > Cart is Empty</div>
-            <div class="go-shop-container" ><a href="/Equitas.html" class="go-shop">Go Shopping</a></div>
+            <div class="go-shop-container" ><a href="Equitas.html" class="go-shop">Go Shopping</a></div>
         </div>
         `;
     }
