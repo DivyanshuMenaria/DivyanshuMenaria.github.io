@@ -93,6 +93,9 @@ main{
     font-size: 1.2em;
     
 }
+.name{
+    color: chocolate;
+}
 .nameText{
     text-align: center;
     font-size: 2em;
@@ -155,6 +158,7 @@ main{
     padding: 20px;
     height: auto;
     background: ivory;
+    border-radius: 12px;
 }
 .projects a{
     text-decoration: none;
