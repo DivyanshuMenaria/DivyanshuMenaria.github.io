@@ -1,0 +1,79 @@
+
+.helpSupport{
+    text-align: center;
+    color: #4CAF50;
+    font-size: 34px;
+    font-weight: 500;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #e5f1f7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.faq-section {
+    margin: 20px 0;
+}
+
+.faq-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.faq-section p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-section {
+    margin: 20px 0;
+}
+
+.contact-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #45a049;
+}
