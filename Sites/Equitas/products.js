@@ -1,7 +1,7 @@
 const products = [
     {
         id: 1,
-        product_image:'/Images/cucumber.jpg',
+        product_image:'/Sites/Equitas/Images/cucumber.jpg',
         product_wt: 10,
         product_name: 'Cucumber',
         current_price: 499,
@@ -12,7 +12,7 @@ const products = [
     },
     {
         id: 2,
-        product_image:'/Images/bottlegourd.jpg',
+        product_image:'/Sites/Equitas/Images/bottlegourd.jpg',
         product_wt: 10,
         product_name: 'Bottle Gourd',
         current_price: 299,
@@ -23,7 +23,7 @@ const products = [
     },
     {
         id: 3,
-        product_image:'/Images/lady-finger.jpg',
+        product_image:'/Sites/Equitas/Images/lady-finger.jpg',
         product_wt: 10,
         product_name: 'Lady Finger',
         current_price: 399,
@@ -34,7 +34,7 @@ const products = [
     },
     {
         id: 4,
-        product_image:'/Images/tomato.jpg',
+        product_image:'/Sites/Equitas/Images/tomato.jpg',
         product_wt: 10,
         product_name: 'Tomato',
         current_price: 699,
@@ -45,7 +45,7 @@ const products = [
     },
     {
         id: 5,
-        product_image:'/Images/watermellon.jpg',
+        product_image:'/Sites/Equitas/Images/watermellon.jpg',
         product_wt: 10,
         product_name: 'Water Mellon',
         current_price: 999,

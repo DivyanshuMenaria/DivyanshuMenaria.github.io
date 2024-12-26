@@ -156,6 +156,10 @@ body{
     height: auto;
     background: ivory;
 }
+.projects a{
+    text-decoration: none;
+    color: black;
+}
 .siteimg{
     width: 100%;
 }
