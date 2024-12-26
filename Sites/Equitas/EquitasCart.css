@@ -16,8 +16,9 @@ main{
     display: flex;
     box-sizing: border-box;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 17px;
     justify-content: center;
+    align-items: center;
     background-color: #8AAAe5;
 }
 .secdiv{
@@ -49,11 +50,14 @@ a:hover{
     color: rgb(219, 155, 72);
 }
 .logo{
-    margin: 5px 20px;
+    margin: 5px 10px;
     margin-bottom: 0;
     position: relative;
-    right: 140px;
-    
+    right: 30%;
+    /* width: 30px; */
+}
+.equitaslogo{
+    width: 60px;
 }
 .nav-item{
     margin: 5px 20px;

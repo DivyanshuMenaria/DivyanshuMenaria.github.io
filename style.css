@@ -160,6 +160,10 @@ body{
     text-decoration: none;
     color: black;
 }
+.projects a:visited{
+    text-decoration: none;
+    color: black;
+}
 .siteimg{
     width: 100%;
 }
