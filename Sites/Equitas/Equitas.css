@@ -349,6 +349,7 @@ a:visited{
     margin: 30px;
     padding: 10px;
     right: 0;
+    border-radius: 14px;
 }
 .img-crops{
     width:100%;
