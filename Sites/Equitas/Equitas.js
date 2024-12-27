@@ -76,7 +76,7 @@ function displayProductOnHomePage() {
                         </div>
                     `
         productContainerElement.innerHTML = innerhtml;
-        return product.id === 5;
+        return productContainerElement.childElementCount === 5;
     });
     let productContainerElementf = document.querySelector('.products-containerf');
     if (!productContainerElementf) {
@@ -84,6 +84,7 @@ function displayProductOnHomePage() {
     }
     let innerhtmlf = '';
     products.some(product => {
+        if(product.category==='fruits'){
         innerhtmlf += `
                         <div class="product-container">
                             <img class="product-image" src="${product.product_image}" alt="image">
@@ -98,7 +99,8 @@ function displayProductOnHomePage() {
                         </div>
                     `
         productContainerElementf.innerHTML = innerhtmlf;
-        return product.id === 5;
+        return productContainerElementf.childElementCount === 5;
+        }
     });
     let productContainerElementg = document.querySelector('.products-containerg');
     if (!productContainerElementg) {
@@ -106,6 +108,7 @@ function displayProductOnHomePage() {
     }
     let innerhtmlg = '';
     products.some(product => {
+        if(product.category==='grains'){
         innerhtmlg += `
                         <div class="product-container">
                             <img class="product-image" src="${product.product_image}" alt="image">
@@ -120,7 +123,8 @@ function displayProductOnHomePage() {
                         </div>
                     `
         productContainerElementg.innerHTML = innerhtmlg;
-        return product.id === 5;
+        return productContainerElementg.childElementCount === 5;
+        }
     });
     let productContainerElementv = document.querySelector('.products-containerv');
     if (!productContainerElementv) {
@@ -128,6 +132,7 @@ function displayProductOnHomePage() {
     }
     let innerhtmlv = '';
     products.some(product => {
+        if(product.category==='vegetables'){
         innerhtmlv += `
                         <div class="product-container">
                             <img class="product-image" src="${product.product_image}" alt="image">
@@ -142,7 +147,8 @@ function displayProductOnHomePage() {
                         </div>
                     `
         productContainerElementv.innerHTML = innerhtmlv;
-        return product.id === 5;
+        return productContainerElementv.childElementCount === 5;
+        }
     });
 }
 
